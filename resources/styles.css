@@ -1,0 +1,29 @@
+
+.sensor-label {
+  font-family: System-Regular;
+  fill: white;
+  text-anchor: middle;
+  font-size: 20;
+}
+
+.sensor-data {
+  font-family: System-Light;
+  fill: yellow;
+  text-anchor: middle;
+  font-size: 20;
+}
+.defaultText {
+  font-size: 32;
+  font-family: System-Regular;
+  font-weight: regular;
+}
+.tile-list-item {
+  height: 80;
+}
+
+.tile-list-item text {
+  height: 32;
+  font-family: System-Regular;
+  fill: "white";
+}
+

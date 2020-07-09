@@ -1,0 +1,38 @@
+{
+  "fitbit": {
+    "appUUID": "bc1d657c-bf67-4abe-a0fa-dcf57fd5a0ad",
+    "appType": "app",
+    "appDisplayName": "sensors",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_activity",
+      "access_accelerometer",
+      "access_gyroscope",
+      "access_orientation",
+      "access_barometer"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini",
+      "mira"
+    ],
+    "i18n": {
+      "en": {
+        "name": "sensors"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "^4.1.0"
+  },
+  "dependencies": {
+    "@fitbit/sdk-cli": "^1.7.2"
+  },
+  "scripts": {
+    "build": "fitbit-build"
+  }
+}
